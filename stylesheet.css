@@ -1,0 +1,61 @@
+html {
+    font-family: Lato, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+nav {
+    text-align: right;
+    position: fixed;
+    background-color: lightgray;
+    height: 5%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.section {
+    clear: both;
+    padding: 5%;
+}
+
+.left-info {
+    float: left;
+    max-width: 40%;
+    display: inline-block;
+}
+
+
+div img {
+    max-width: 80%;
+}
+
+.right-info {
+    float: right;
+    max-width: 60%;
+    display: inline-block;
+}
+
+.full-info {
+    clear: both;
+}
+
+footer {
+    clear: both;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .left-info {
+        clear: both;
+    }
+    .right-info {
+        clear: both;
+    }
+}
