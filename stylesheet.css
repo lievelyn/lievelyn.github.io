@@ -18,6 +18,12 @@ nav {
 
 h1 {
     text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+
+h2 {
+    font-size: 1.2em;
 }
 
 .section {
@@ -52,10 +58,26 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+    html {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
     .left-info {
-        clear: both;
+        float: none;
     }
     .right-info {
-        clear: both;
+        float: none;
+    }
+    
+    nav {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
