@@ -9,19 +9,29 @@ html {
 }
 
 nav {
-    text-align: right;
     position: fixed;
     color: white;
     background-color: black;
-    vertical-align: middle;
-    height: 4%;
+    min-height: inherit;
     padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     top: 0;
     left: 0;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
+}
+
+#name {
+    font-size: 2em;
+    float: left;
+    padding-left: 3%;
+}
+
+#links {
+    float: right;
+    padding-right: 3%;
 }
 
 a:link {
@@ -100,6 +110,13 @@ footer {
     html {
         margin-left: 0%;
         margin-right: 0%;
+        margin-top: 15%;
+    }
+    
+    nav {
+        font-size: 0.8em;
+        text-align: justify;
+        text-align-last: center;
     }
     
     .left-info {
@@ -129,6 +146,10 @@ footer {
     html {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    
+    nav {
+        font-size: 0.9em;
     }
 }
 
