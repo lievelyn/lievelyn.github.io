@@ -1,8 +1,8 @@
 html {
-    font-family: Lato, Helvetica, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 5%;
     color: black;
     background-color: whitesmoke;
@@ -10,8 +10,8 @@ html {
 
 nav {
     position: fixed;
-    color: white;
-    background-color: black;
+    color: dimgray;
+    background-color: white;
     min-height: inherit;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -27,11 +27,14 @@ nav {
     font-size: 2em;
     float: left;
     padding-left: 3%;
+    padding-right: 3%;
 }
 
 #links {
     float: right;
+    padding-left: 3%;
     padding-right: 3%;
+    word-spacing: 1em;
 }
 
 a:link {
@@ -40,7 +43,7 @@ a:link {
 }
 
 a:visited {
-    color: darkgray;
+    color: #00cccc;
 }
 
 a:hover {
@@ -104,6 +107,14 @@ h2 {
     text-align: justify;
 }
 
+#arrow-top {
+    position: fixed;
+    color: dimgray;
+    bottom: 0;
+    right: 0;
+    margin: 5%;
+}
+
 footer {
     clear: both;
     padding-top: 5%;
@@ -148,6 +159,10 @@ footer {
     .section a {
         padding-top: 40%;
     }
+
+    #arrow-top {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -158,6 +173,10 @@ footer {
 
     nav {
         font-size: 0.9em;
+    }
+
+    #arrow-top {
+        padding: 3%;
     }
 }
 
