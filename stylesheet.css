@@ -47,7 +47,7 @@ a:hover {
     color: teal;
 }
 
-a {
+.section a {
     padding-top: 12%;
 }
 
@@ -116,33 +116,37 @@ footer {
         margin-right: 0%;
         margin-top: 15%;
     }
-    
+
     nav {
         font-size: 0.8em;
         text-align: justify;
         text-align-last: center;
     }
-    
+
     .left-info {
         float: none;
         max-width: 100%;
     }
-    
+
     .right-info {
         float: none;
         max-width: 100%;
     }
-    
+
     #languages {
         float: none;
     }
-    
+
     #tools {
         float: none;
     }
-    
+
     img {
         max-width: 100%;
+    }
+
+    .section a {
+        padding-top: 40%;
     }
 }
 
@@ -151,7 +155,7 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
-    
+
     nav {
         font-size: 0.9em;
     }
