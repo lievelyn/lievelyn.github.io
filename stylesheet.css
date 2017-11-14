@@ -47,6 +47,10 @@ a:hover {
     color: teal;
 }
 
+a {
+    padding-top: 12%;
+}
+
 img {
     max-width: 80%;
 }
