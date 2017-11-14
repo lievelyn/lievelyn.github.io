@@ -9,26 +9,63 @@ html {
 nav {
     text-align: right;
     position: fixed;
-    background-color: lightgray;
-    height: 5%;
+    color: white;
+    background-color: black;
+    vertical-align: middle;
+    height: 4%;
+    padding-top: 1%;
     width: 100%;
     top: 0;
     left: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+a:link {
+    color: #00cccc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: teal;
+}
+
+img {
+    max-width: 80%;
+}
+
+#profile-img {
+    border-radius: 50%;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 1.5em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
 }
 
 h2 {
     font-size: 1.2em;
+    padding-top: 2%;
 }
 
 .section {
     clear: both;
     padding: 5%;
+}
+
+#languages {
+    float: left;
+    max-width: 50%;
+}
+
+#tools {
+    float: right;
+    max-width: 50%;
 }
 
 .left-info {
@@ -37,24 +74,22 @@ h2 {
     display: inline-block;
 }
 
-
-div img {
-    max-width: 80%;
-}
-
 .right-info {
     float: right;
     max-width: 60%;
     display: inline-block;
+    text-align: justify;
 }
 
 .full-info {
     clear: both;
+    text-align: justify;
 }
 
 footer {
     clear: both;
     padding-top: 5%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
@@ -65,13 +100,24 @@ footer {
     
     .left-info {
         float: none;
+        max-width: 100%;
     }
+    
     .right-info {
+        float: none;
+        max-width: 100%;
+    }
+    
+    #languages {
         float: none;
     }
     
-    nav {
-        font-size: 0.8em;
+    #tools {
+        float: none;
+    }
+    
+    img {
+        max-width: 100%;
     }
 }
 
@@ -79,5 +125,12 @@ footer {
     html {
         margin-left: 10%;
         margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
