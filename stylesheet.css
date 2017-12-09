@@ -9,7 +9,7 @@ html {
 }
 
 nav {
-    z-index: 10;
+    z-index: 2;
     position: fixed;
     display: flex;
     color: dimgray;
@@ -138,6 +138,10 @@ footer {
     clear: both;
     padding-top: 5%;
     text-align: center;
+}
+
+.section .col {
+    z-index: 1;
 }
 
 @media only screen and (max-width: 500px) {
