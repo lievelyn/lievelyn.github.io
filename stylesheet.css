@@ -162,7 +162,7 @@ footer {
     }
 
     .section h1 a {
-        margin-top: 40%;
+        padding-top: 40%;
     }
 
     #name {
@@ -184,8 +184,6 @@ footer {
         max-width: 100%;
     }
 
-
-
     #languages {
         float: none;
     }
@@ -195,16 +193,13 @@ footer {
     }
 
     #icon {
-        margin: 20px;
+        padding: 0px;
+        background-color: black;
+        margin: 20px 20px 0px 0px;
     }
 
     img {
         max-width: 100%;
-    }
-
-    .section {
-        padding-top: 40%;
-        margin-top: -30%;
     }
 
     #arrow-top {
