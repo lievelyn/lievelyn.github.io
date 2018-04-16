@@ -67,9 +67,11 @@ img {
 }
 
 #icons {
-    padding: 20px;
     text-align: center;
-    letter-spacing: 1em;
+}
+
+i {
+    padding: 20px;
 }
 
 h1 {
