@@ -71,7 +71,7 @@ img {
 }
 
 i {
-    padding: 20px;
+    margin: 20px;
 }
 
 h1 {
@@ -162,7 +162,7 @@ footer {
     }
 
     .section h1 a {
-        padding-top: 40%;
+        margin-top: 40%;
     }
 
     #name {
@@ -196,7 +196,7 @@ footer {
         max-width: 100%;
     }
 
-    .section a {
+    .section {
         padding-top: 40%;
     }
 
