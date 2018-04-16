@@ -70,8 +70,8 @@ img {
     text-align: center;
 }
 
-i {
-    margin: 20px;
+#icon {
+    margin: 30px;
 }
 
 h1 {
@@ -184,6 +184,8 @@ footer {
         max-width: 100%;
     }
 
+
+
     #languages {
         float: none;
     }
@@ -192,12 +194,18 @@ footer {
         float: none;
     }
 
+    #icon {
+        background-color: black;
+        margin: 0px 20px 20px 0px;
+    }
+
     img {
         max-width: 100%;
     }
 
     .section {
         padding-top: 40%;
+        margin-top: -30%;
     }
 
     #arrow-top {
