@@ -1,9 +1,8 @@
 html {
-    font-family: 'Lato', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3%;
-    margin-bottom: 5%;
     color: black;
     background-color: white;
 }
@@ -13,7 +12,7 @@ nav {
     position: fixed;
     display: flex;
     color: dimgray;
-    background-color: whitesmoke;
+    background-color: black;
     height: inherit;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -29,12 +28,18 @@ nav {
     padding-top: 10%;
 }
 
+#icon {
+    padding-top: 0%;
+}
+
 #section-inf {
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
 #name {
+    font-weight: 1;
+    color: white;
     font-size: 2em;
     align-self: center;
     margin-left: 3%;
@@ -50,12 +55,12 @@ nav {
 }
 
 a:link {
-    color: #00cccc;
+    color: goldenrod;
     text-decoration: none;
 }
 
 a:visited {
-    color: #00cccc;
+    color: darkgoldenrod;
 }
 
 img {
@@ -126,7 +131,7 @@ h2 {
 .full-info {
     clear: both;
     text-align: justify;
-    text-align-last: center;
+    padding-left: 5%;
 }
 
 #arrow-top {
@@ -138,9 +143,22 @@ h2 {
 }
 
 footer {
-    clear: both;
-    padding-top: 5%;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left: 0px;
+    z-index: 2;
     text-align: center;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+footer #icons {
+    font-size: .80em;
 }
 
 .section .col {
@@ -163,6 +181,10 @@ footer {
 
     .section h1 a {
         padding-top: 40%;
+    }
+
+    #icon {
+        padding-top: 0%;
     }
 
     #name {
